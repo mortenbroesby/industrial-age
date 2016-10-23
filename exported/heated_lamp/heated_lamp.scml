@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="b8_1">
+    <folder id="0">
+        <file id="0" name="heat_lamp_prototype.png" width="209" height="426" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="heated_lamp">
+        <animation id="0" name="Idle" length="67">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="67">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="heat_lamp_prototype_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-2.978571" y="-45.501171" pivot_x="0.478571" pivot_y="0.001171" angle="0"/>
+                </key>
+                <key id="1" time="67" spin="0">
+                    <object folder="0" file="0" x="-2.978571" y="-45.501171" pivot_x="0.478571" pivot_y="0.001171" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="b8_1">
+    <folder id="0" name="generator_base">
+        <file id="0" name="generator_base/base.png" width="349" height="504" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="1" name="peephole">
+        <file id="0" name="peephole/peephole_idle.png" width="349" height="504" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="peephole/peephole_low.png" width="349" height="504" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="peephole/peephole_medium.png" width="349" height="504" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="peephole/peephole_high.png" width="349" height="504" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="peephole/peephole_full.png" width="349" height="504" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="2" name="heat_overlay">
+        <file id="0" name="heat_overlay/overlay_low.png" width="349" height="504" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="heat_overlay/overlay_medium.png" width="349" height="504" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="heat_overlay/overlay_high.png" width="349" height="504" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="heat_overlay/overlay_full.png" width="349" height="504" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="generator">
+        <animation id="0" name="hit" length="367">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="34">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="1" z_index="1"/>
+                </key>
+                <key id="2" time="67">
+                    <object_ref id="0" timeline="1" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="2" z_index="1"/>
+                </key>
+                <key id="3" time="100">
+                    <object_ref id="0" timeline="1" key="3" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="3" z_index="1"/>
+                </key>
+                <key id="4" time="134">
+                    <object_ref id="0" timeline="1" key="4" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="4" z_index="1"/>
+                </key>
+                <key id="5" time="367">
+                    <object_ref id="0" timeline="1" key="5" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="5" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="base">
+                <key id="0" spin="-1">
+                    <object folder="0" file="0" x="-183.944033" y="446.456048" angle="1.134422"/>
+                </key>
+                <key id="1" time="34" spin="-1">
+                    <object folder="0" file="0" x="-174" y="450" angle="0"/>
+                </key>
+                <key id="2" time="67">
+                    <object folder="0" file="0" x="-158.808103" y="455.020992" angle="358.281642"/>
+                </key>
+                <key id="3" time="100">
+                    <object folder="0" file="0" x="-174" y="450" angle="0"/>
+                </key>
+                <key id="4" time="134" spin="-1">
+                    <object folder="0" file="0" x="-179.056233" y="448.215843" angle="0.575818"/>
+                </key>
+                <key id="5" time="367">
+                    <object folder="0" file="0" x="-174" y="450" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="peephole_idle">
+                <key id="0" spin="-1">
+                    <object folder="1" file="0" x="-183.944033" y="446.456048" angle="1.134422"/>
+                </key>
+                <key id="1" time="34" spin="-1">
+                    <object folder="1" file="0" x="-174" y="450" angle="0"/>
+                </key>
+                <key id="2" time="67">
+                    <object folder="1" file="0" x="-158.808103" y="455.020992" angle="358.281642"/>
+                </key>
+                <key id="3" time="100">
+                    <object folder="1" file="0" x="-174" y="450" angle="0"/>
+                </key>
+                <key id="4" time="134" spin="-1">
+                    <object folder="1" file="0" x="-179.056233" y="448.215843" angle="0.575818"/>
+                </key>
+                <key id="5" time="367">
+                    <object folder="1" file="0" x="-174" y="450" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="idle" length="67">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="67">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="1" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="base">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-174" y="450" angle="0"/>
+                </key>
+                <key id="1" time="67" spin="0">
+                    <object folder="0" file="0" x="-174" y="450" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="peephole_idle">
+                <key id="0" spin="0">
+                    <object folder="1" file="0" x="-174" y="450" angle="0"/>
+                </key>
+                <key id="1" time="67" spin="0">
+                    <object folder="1" file="0" x="-174" y="450" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="2" name="place" length="367">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="34">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="1" z_index="1"/>
+                </key>
+                <key id="2" time="67">
+                    <object_ref id="0" timeline="1" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="2" z_index="1"/>
+                </key>
+                <key id="3" time="100">
+                    <object_ref id="0" timeline="1" key="3" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="3" z_index="1"/>
+                </key>
+                <key id="4" time="134">
+                    <object_ref id="0" timeline="1" key="4" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="4" z_index="1"/>
+                </key>
+                <key id="5" time="167">
+                    <object_ref id="0" timeline="1" key="5" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="5" z_index="1"/>
+                </key>
+                <key id="6" time="200">
+                    <object_ref id="0" timeline="1" key="6" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="6" z_index="1"/>
+                </key>
+                <key id="7" time="234">
+                    <object_ref id="0" timeline="1" key="7" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="7" z_index="1"/>
+                </key>
+                <key id="8" time="267">
+                    <object_ref id="0" timeline="1" key="8" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="8" z_index="1"/>
+                </key>
+                <key id="9" time="300">
+                    <object_ref id="0" timeline="1" key="9" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="9" z_index="1"/>
+                </key>
+                <key id="10" time="334">
+                    <object_ref id="0" timeline="1" key="10" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="10" z_index="1"/>
+                </key>
+                <key id="11" time="367">
+                    <object_ref id="0" timeline="1" key="11" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="11" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="base">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-174" y="592" angle="0"/>
+                </key>
+                <key id="1" time="34" spin="0">
+                    <object folder="0" file="0" x="-141.777778" y="588.362871" angle="0" scale_x="0.814815" scale_y="1.274257"/>
+                </key>
+                <key id="2" time="67" spin="0">
+                    <object folder="0" file="0" x="-234.974359" y="275.672772" angle="0" scale_x="1.350427" scale_y="0.654455"/>
+                </key>
+                <key id="3" time="100" spin="0">
+                    <object folder="0" file="0" x="-166.564103" y="461.488614" angle="0" scale_x="0.957265" scale_y="1.022772"/>
+                </key>
+                <key id="4" time="134" spin="0">
+                    <object folder="0" file="0" x="-160.615385" y="477.472772" angle="0" scale_x="0.923077" scale_y="1.054455"/>
+                </key>
+                <key id="5" time="167" spin="0">
+                    <object folder="0" file="0" x="-174" y="450" angle="0"/>
+                </key>
+                <key id="6" time="200" spin="0">
+                    <object folder="0" file="0" x="-174" y="450" angle="0"/>
+                </key>
+                <key id="7" time="234" spin="0">
+                    <object folder="0" file="0" x="-174" y="450" angle="0"/>
+                </key>
+                <key id="8" time="267" spin="0">
+                    <object folder="0" file="0" x="-174" y="450" angle="0"/>
+                </key>
+                <key id="9" time="300" spin="0">
+                    <object folder="0" file="0" x="-174" y="450" angle="0"/>
+                </key>
+                <key id="10" time="334" spin="0">
+                    <object folder="0" file="0" x="-174" y="450" angle="0"/>
+                </key>
+                <key id="11" time="367" spin="0">
+                    <object folder="0" file="0" x="-174" y="450" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="peephole_idle">
+                <key id="0" spin="0">
+                    <object folder="1" file="0" x="-174" y="592" angle="0"/>
+                </key>
+                <key id="1" time="34" spin="0">
+                    <object folder="1" file="0" x="-141.777778" y="588.362871" angle="0" scale_x="0.814815" scale_y="1.274257"/>
+                </key>
+                <key id="2" time="67" spin="0">
+                    <object folder="1" file="0" x="-234.974359" y="275.672772" angle="0" scale_x="1.350427" scale_y="0.654455"/>
+                </key>
+                <key id="3" time="100" spin="0">
+                    <object folder="1" file="0" x="-166.564103" y="461.488614" angle="0" scale_x="0.957265" scale_y="1.022772"/>
+                </key>
+                <key id="4" time="134" spin="0">
+                    <object folder="1" file="0" x="-160.615385" y="477.472772" angle="0" scale_x="0.923077" scale_y="1.054455"/>
+                </key>
+                <key id="5" time="167" spin="0">
+                    <object folder="1" file="0" x="-174" y="450" angle="0"/>
+                </key>
+                <key id="6" time="200" spin="0">
+                    <object folder="1" file="0" x="-174" y="450" angle="0"/>
+                </key>
+                <key id="7" time="234" spin="0">
+                    <object folder="1" file="0" x="-174" y="450" angle="0"/>
+                </key>
+                <key id="8" time="267" spin="0">
+                    <object folder="1" file="0" x="-174" y="450" angle="0"/>
+                </key>
+                <key id="9" time="300" spin="0">
+                    <object folder="1" file="0" x="-174" y="450" angle="0"/>
+                </key>
+                <key id="10" time="334" spin="0">
+                    <object folder="1" file="0" x="-174" y="450" angle="0"/>
+                </key>
+                <key id="11" time="367" spin="0">
+                    <object folder="1" file="0" x="-174" y="450" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="3" name="low" length="67">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="67">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="peephole_medium">
+                <key id="0" spin="0">
+                    <object folder="1" file="1" x="-174" y="450" angle="0"/>
+                </key>
+                <key id="1" time="67" spin="0">
+                    <object folder="1" file="1" x="-174" y="450" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="overlay_medium">
+                <key id="0" spin="0">
+                    <object folder="2" file="0" x="-174" y="450" angle="0"/>
+                </key>
+                <key id="1" time="67" spin="0">
+                    <object folder="2" file="0" x="-174" y="450" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="4" name="medium" length="67">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="67">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="1" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="overlay_medium_000">
+                <key id="0" spin="0">
+                    <object folder="2" file="1" x="-174" y="450" angle="0"/>
+                </key>
+                <key id="1" time="67" spin="0">
+                    <object folder="2" file="1" x="-174" y="450" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="peephole_medium_000">
+                <key id="0" spin="0">
+                    <object folder="1" file="2" x="-174" y="450" angle="0"/>
+                </key>
+                <key id="1" time="67" spin="0">
+                    <object folder="1" file="2" x="-174" y="450" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="5" name="high" length="67">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="67">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="peephole_high">
+                <key id="0" spin="0">
+                    <object folder="1" file="3" x="-174" y="450" angle="0"/>
+                </key>
+                <key id="1" time="67" spin="0">
+                    <object folder="1" file="3" x="-174" y="450" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="overlay_high">
+                <key id="0" spin="0">
+                    <object folder="2" file="2" x="-174" y="450" angle="0"/>
+                </key>
+                <key id="1" time="67" spin="0">
+                    <object folder="2" file="2" x="-174" y="450" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="6" name="full" length="67">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="67">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="1" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="overlay_full">
+                <key id="0" spin="0">
+                    <object folder="2" file="3" x="-174" y="450" angle="0"/>
+                </key>
+                <key id="1" time="67" spin="0">
+                    <object folder="2" file="3" x="-174" y="450" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="peephole_full">
+                <key id="0" spin="0">
+                    <object folder="1" file="4" x="-174" y="450" angle="0"/>
+                </key>
+                <key id="1" time="67" spin="0">
+                    <object folder="1" file="4" x="-174" y="450" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>
